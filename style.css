@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 950px;
+  margin: auto;
+}
+
+#title {
+  display: flex;
+  align-items: flex-end;
+  font-size: 1.4em;
+}
+
+#title span {
+  color: rgb(71, 100, 185);
+}
+
+#title h1 {
+  color: rgb(58, 58, 58);
+  margin-left: 10%;
+}
+
+#title img {
+  width: 6%;
+  position: absolute;
+  top: 0;
+  left: 70;
+  z-index: 1;
+}
+
+#col-one-first-span{
+    color: crimson;
+}
+
+.col-one-second-span{
+    color: rgb(71, 100, 185);
+}
+
+#sub-title {
+  background-color: rgb(71, 100, 185);
+  color: #fff;
+  padding: 2%;
+  position: relative;
+  z-index: -1;
+}
+
+#sub-title{
+    margin-top: 2%;
+}
+
+#rowOne{
+    display: flex;
+    justify-content: space-between;
+}
+
+#rowOne h3{
+    margin-top: 4%;
+}
+
+#col-one{
+    width: 20%;
+    /* background-color: red; */
+}
+
+#col-one-border{
+    width: 100%;
+    border-bottom: 2px grey solid;
+    margin-top: 25%;
+}
+
+.col-one-btns{
+    display: block;
+    padding: 3%;
+    width: 100%;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#blueBtn{
+    margin-top: 4%;
+    background-color: rgb(71, 100, 185);
+}
+
+#orangeBtn{
+    margin-top: 1%;
+    background-color: rgb(243, 172, 40);
+    margin-bottom: 10%;
+}
+
+#col-two{
+    width: 78%;
+}
+
+#top-right-col{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px grey solid;
+}
+
+#pairOne{
+    display: flex;
+    padding-top: 2%;
+    color: rgb(71, 100, 185);
+}
+
+#pairOne img{
+    width: 8%;
+    height: 30%;
+}
+
+#pairTwo{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 2%;
+}
+
+#pairTwo img{
+    width: 10%;
+    height: 50%;
+    align-self: center;
+    padding-right: 2%;
+}
+
+#cellNum p{
+    font-size: .8rem;
+}
+
+#number{
+    font-size: 1.4rem;
+    color: rgb(64, 187, 224);
+    font-weight: bold;
+}
+
+#row-two{
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-bottom-col{
+    background-image: url("imgs/ad_background.png");
+    height: 42vh;
+    text-align: center;
+    margin-top: 24%;
+}
+
+#first-bottom-col img{
+    width: 50%;
+    margin: auto;
+}
+
+#first-bottom-col button{
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(20, 199, 199);
+}
+
+#first-bottom-col h2{
+    color: #fff;
+    padding: 5%;
+}
+
+#right-bottom-col{
+    width: 78%;
+}
+
+#col-two h3{
+    color: rgb(71, 100, 185);
+}
+
+.blue-span{
+    color: rgb(64, 187, 224);
+}
+
+.black-span{
+    color: black;
+    font-weight: bold;
+}
+
+.list-div{
+    margin-left: 4%;
+}
+
+.list-div li{
+    margin-top: 1%;
+}
+
+#client-server-img{
+    width: 40%;
+    margin-left: 25%;
+}
+
+#big-three-div{
+    display: flex;
+    margin-top: 3%;
+    width: 95%;
+    border-top: 6px rgb(4, 139, 184) solid;
+    border-right: 6px rgb(4, 139, 184) solid;
+    border-left: 6px rgb(4, 139, 184) solid;
+}
+
+#big-three-div img{
+    width: 10%;
+    height: 15vh;
+    margin-right: 3%;
+    margin-top: 2%;
+}
